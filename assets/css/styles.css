@@ -542,7 +542,7 @@ section[id], main { scroll-margin-top: calc(var(--header-h) + 12px); }
 @media (max-width: 640px) {
   :root { --gutter: 16px; --header-h: 60px; }
   body { font-size: .97rem; }
-  .brand-name { display: none; }
+  .brand-name { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
   .hero { padding-top: 32px; }
   .hero-grid { gap: 24px; }
   .hero-visual { gap: 0; }

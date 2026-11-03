@@ -17,7 +17,6 @@
     'meta.description': 'Portfolio de Alejandro Espino Pérez, desarrollador full-stack (Laravel, React/Next.js, TypeScript) que crea productos SaaS en producción para empresas de EE. UU. y España. La Habana, Cuba · hora del Este · disponible para trabajo remoto.',
 
     'skip': 'Saltar al contenido',
-    'brand.label': 'Alejandro Espino Pérez, volver arriba',
     'nav.label': 'Principal',
     'nav.about': 'Sobre mí',
     'nav.experience': 'Experiencia',
@@ -197,15 +196,19 @@
   function t(key, fallback) { return lang === 'es' && ES[key] != null ? ES[key] : fallback; }
 
   function applyLang(next) {
+    var prev = lang;
     lang = next === 'es' ? 'es' : 'en';
     root.lang = lang;
-    textEls.forEach(function (el) { el.innerHTML = t(el.getAttribute('data-i18n'), el._en); });
-    attrEls.forEach(function (el) {
-      Object.keys(el._enAttrs).forEach(function (attr) {
-        var a = el._enAttrs[attr];
-        el.setAttribute(attr, t(a.key, a.value));
+    // The HTML ships in English, so an English first load has nothing to rewrite.
+    if (lang !== prev) {
+      textEls.forEach(function (el) { el.innerHTML = t(el.getAttribute('data-i18n'), el._en); });
+      attrEls.forEach(function (el) {
+        Object.keys(el._enAttrs).forEach(function (attr) {
+          var a = el._enAttrs[attr];
+          el.setAttribute(attr, t(a.key, a.value));
+        });
       });
-    });
+    }
     document.title = t('meta.title', original.title);
     if (metaDesc) metaDesc.content = t('meta.description', original.description);
     Array.prototype.forEach.call(document.querySelectorAll('.lang-switch button'), function (b) {
