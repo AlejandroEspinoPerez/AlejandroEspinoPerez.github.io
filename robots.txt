@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://alejandroespinoperez.github.io/sitemap.xml

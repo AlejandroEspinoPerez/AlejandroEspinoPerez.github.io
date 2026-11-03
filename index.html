@@ -1,0 +1,555 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alejandro Espino Pérez — Full-Stack Developer · Laravel · React/Next.js · TypeScript</title>
+<meta name="description" content="Portfolio of Alejandro Espino Pérez, Full-Stack Developer (Laravel, React/Next.js, TypeScript) building production SaaS for companies in the US and Spain. Havana, Cuba · US Eastern Time · open to remote roles.">
+<meta name="author" content="Alejandro Espino Pérez">
+<link rel="canonical" href="https://alejandroespinoperez.github.io/">
+<meta name="theme-color" content="#0A1022">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Alejandro Espino Pérez">
+<meta property="og:title" content="Alejandro Espino Pérez — Full-Stack Developer">
+<meta property="og:description" content="Laravel · React/Next.js · TypeScript. Building production SaaS for companies in the US and Spain since late 2024. Open to remote roles.">
+<meta property="og:url" content="https://alejandroespinoperez.github.io/">
+<meta property="og:image" content="https://alejandroespinoperez.github.io/assets/img/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Alejandro Espino Pérez — Full-Stack Developer · Laravel · React/Next.js · TypeScript">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="es_ES">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Alejandro Espino Pérez — Full-Stack Developer">
+<meta name="twitter:description" content="Laravel · React/Next.js · TypeScript. Building production SaaS for companies in the US and Spain since late 2024. Open to remote roles.">
+<meta name="twitter:image" content="https://alejandroespinoperez.github.io/assets/img/og-image.jpg">
+
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="preload" href="assets/fonts/inter-latin-wght.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/styles.css">
+<script>
+  (function () {
+    var t = null;
+    try { t = localStorage.getItem('theme'); } catch (e) {}
+    if (t !== 'light' && t !== 'dark') t = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', t);
+    document.documentElement.className = 'js';
+  })();
+</script>
+<script src="assets/js/main.js" defer></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Alejandro Espino Pérez",
+  "jobTitle": "Full-Stack Developer",
+  "url": "https://alejandroespinoperez.github.io/",
+  "image": "https://alejandroespinoperez.github.io/assets/img/avatar-460.jpg",
+  "email": "mailto:espinoperezalejandro50@gmail.com",
+  "address": { "@type": "PostalAddress", "addressLocality": "Havana", "addressCountry": "CU" },
+  "alumniOf": { "@type": "CollegeOrUniversity", "name": "Universidad de las Ciencias Informáticas (UCI)" },
+  "knowsAbout": ["Laravel", "PHP", "React", "Next.js", "TypeScript", "Angular", "NestJS", "Filament", "React Native", "Expo"],
+  "sameAs": ["https://github.com/AlejandroEspinoPerez"]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+
+<svg class="sprite" aria-hidden="true" focusable="false">
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></symbol>
+  <symbol id="i-github" viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.9a3.4 3.4 0 0 0-.9-2.6c3.1-.4 6.4-1.5 6.4-6.9a5.4 5.4 0 0 0-1.5-3.7 5 5 0 0 0-.1-3.8s-1.2-.4-3.9 1.5a13.4 13.4 0 0 0-7 0C6.3 1.6 5.1 2 5.1 2a5 5 0 0 0-.1 3.8A5.4 5.4 0 0 0 3.5 9.5c0 5.4 3.3 6.5 6.4 6.9a3.4 3.4 0 0 0-.9 2.6V22"/></symbol>
+  <symbol id="i-file" viewBox="0 0 24 24"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h6"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+  <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></symbol>
+  <symbol id="i-moon" viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9"/></symbol>
+  <symbol id="i-up" viewBox="0 0 24 24"><path d="M12 19V5M5 12l7-7 7 7"/></symbol>
+  <symbol id="i-play" viewBox="0 0 24 24"><path d="M7 4.5v15l12-7.5z"/></symbol>
+  <symbol id="i-card" viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20M6 15h4"/></symbol>
+  <symbol id="i-game" viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="11" rx="4"/><path d="M7 10.5v4M5 12.5h4M15.5 11.5h.01M18 13.5h.01"/></symbol>
+  <symbol id="i-spark" viewBox="0 0 24 24"><path d="M11 3l1.8 4.7 4.7 1.8-4.7 1.8L11 16l-1.8-4.7L4.5 9.5l4.7-1.8z"/><path d="M18.5 14.5l.8 2.2 2.2.8-2.2.8-.8 2.2-.8-2.2-2.2-.8 2.2-.8z"/></symbol>
+  <symbol id="i-code" viewBox="0 0 24 24"><path d="m8 8-5 4 5 4M16 8l5 4-5 4M14 4l-4 16"/></symbol>
+  <symbol id="i-cap" viewBox="0 0 24 24"><path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11v5c0 1.5 2.7 3 6 3s6-1.5 6-3v-5M22 9v6"/></symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></symbol>
+  <symbol id="i-lock" viewBox="0 0 24 24"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></symbol>
+</svg>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="#top" aria-label="Alejandro Espino Pérez, back to top" data-i18n-attr="aria-label:brand.label">
+      <span class="brand-mark" aria-hidden="true">AE</span>
+      <span class="brand-name">Alejandro Espino</span>
+    </a>
+    <nav class="nav" aria-label="Main" data-i18n-attr="aria-label:nav.label">
+      <ul class="nav-list" id="nav-list">
+        <li><a href="#about" data-i18n="nav.about">About</a></li>
+        <li><a href="#experience" data-i18n="nav.experience">Experience</a></li>
+        <li><a href="#work" data-i18n="nav.work">Work</a></li>
+        <li><a href="#projects" data-i18n="nav.projects">Projects</a></li>
+        <li><a href="#skills" data-i18n="nav.skills">Skills</a></li>
+        <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="controls">
+      <div class="lang-switch" role="group" aria-label="Language" data-i18n-attr="aria-label:lang.label">
+        <button type="button" data-lang="en" aria-pressed="true" lang="en" title="English">EN</button>
+        <button type="button" data-lang="es" aria-pressed="false" lang="es" title="Español">ES</button>
+      </div>
+      <button type="button" class="icon-btn theme-toggle" aria-label="Switch to light mode">
+        <svg class="icon icon-sun" aria-hidden="true"><use href="#i-sun"/></svg>
+        <svg class="icon icon-moon" aria-hidden="true"><use href="#i-moon"/></svg>
+      </button>
+      <button type="button" class="icon-btn menu-toggle" aria-expanded="false" aria-controls="nav-list" aria-label="Open menu">
+        <svg class="icon icon-menu" aria-hidden="true"><use href="#i-menu"/></svg>
+        <svg class="icon icon-close" aria-hidden="true"><use href="#i-close"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- Hero -->
+  <section class="hero" id="top" aria-labelledby="hero-title">
+    <div class="hero-bg" aria-hidden="true"><span class="glow glow-a"></span><span class="glow glow-b"></span></div>
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <p class="status">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span data-i18n="hero.status">Open to remote roles</span>
+          <span class="status-sep" aria-hidden="true">·</span>
+          <span data-i18n="hero.location">Havana, Cuba · US Eastern Time</span>
+        </p>
+        <h1 id="hero-title" class="hero-name">Alejandro Espino Pérez</h1>
+        <p class="hero-role"><span class="grad-text" data-i18n="hero.role">Full-Stack Developer</span></p>
+        <p class="hero-stack">Laravel <span aria-hidden="true">·</span> React/Next.js <span aria-hidden="true">·</span> TypeScript</p>
+        <p class="hero-lead" data-i18n="hero.lead">Building production SaaS for companies in the US and Spain since late 2024. Full-time primary frontend developer on <strong>Falcon Dispute</strong> (Dumbo Credit), with a focus on payments.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="mailto:espinoperezalejandro50@gmail.com">
+            <svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg><span data-i18n="cta.email">Email me</span>
+          </a>
+          <a class="btn btn-secondary" href="https://github.com/AlejandroEspinoPerez" target="_blank" rel="me noopener">
+            <svg class="icon" aria-hidden="true"><use href="#i-github"/></svg><span>GitHub</span>
+          </a>
+          <a class="btn btn-ghost" href="cv/Alejandro-Espino-Perez-Resume-FullStack-EN.pdf" type="application/pdf" target="_blank" rel="noopener" data-i18n-attr="href:cta.resumeHref">
+            <svg class="icon" aria-hidden="true"><use href="#i-file"/></svg><span data-i18n="cta.resume">Resume (PDF)</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="avatar-ring">
+          <picture>
+            <source type="image/webp" srcset="assets/img/avatar-320.webp 320w, assets/img/avatar-460.webp 460w" sizes="(max-width: 700px) 176px, 288px">
+            <img class="avatar" src="assets/img/avatar-460.jpg" srcset="assets/img/avatar-320.jpg 320w, assets/img/avatar-460.jpg 460w" sizes="(max-width: 700px) 176px, 288px" width="288" height="288" alt="Photo of Alejandro Espino Pérez" data-i18n-attr="alt:hero.photoAlt" fetchpriority="high">
+          </picture>
+        </div>
+        <div class="code-card" aria-hidden="true">
+          <div class="code-head"><span class="code-dots"><i></i><i></i><i></i></span><span class="code-file">dev.ts</span></div>
+<pre><code><span class="k">const</span> dev <span class="p">=</span> {
+  <span class="v">role</span><span class="p">:</span> <span class="s">'Full-Stack'</span>,
+  <span class="v">stack</span><span class="p">:</span> [<span class="s">'Laravel'</span>, <span class="s">'Next.js'</span>],
+  <span class="v">shipsToProd</span><span class="p">:</span> <span class="b">true</span>,
+};<span class="cursor"></span></code></pre>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <ul class="stats" aria-label="Highlights" data-i18n-attr="aria-label:stats.label">
+        <li class="stat"><strong data-i18n="stats.1.n">3.5+ years</strong><span data-i18n="stats.1.l">of professional experience</span></li>
+        <li class="stat"><strong data-i18n="stats.2.n">2 years</strong><span data-i18n="stats.2.l">building SaaS for the US and Spain</span></li>
+        <li class="stat"><strong data-i18n="stats.3.n">1,500+</strong><span data-i18n="stats.3.l">commits on Falcon Dispute</span></li>
+        <li class="stat"><strong data-i18n="stats.4.n">2,400+</strong><span data-i18n="stats.4.l">GitHub contributions in the last 12 months</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section" id="about" aria-labelledby="about-title">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="kicker">01</p>
+        <h2 id="about-title" data-i18n="about.title">About me</h2>
+      </header>
+      <div class="about-grid">
+        <div class="about-copy reveal">
+          <p class="lead" data-i18n="about.intro">Full-Stack Developer since 2023, with 3.5+ years of experience. I mainly work with <strong>Laravel + React/Next.js + TypeScript</strong>, and also with Angular, NestJS, Filament and React Native/Expo.</p>
+          <ul class="highlights">
+            <li>
+              <span class="hl-icon" aria-hidden="true"><svg class="icon"><use href="#i-code"/></svg></span>
+              <p data-i18n="about.h1">Full-time primary frontend developer on <a href="https://falcondispute.com" target="_blank" rel="noopener">Falcon Dispute</a>, a multi-tenant credit-repair SaaS for Dumbo Credit.</p>
+            </li>
+            <li>
+              <span class="hl-icon" aria-hidden="true"><svg class="icon"><use href="#i-card"/></svg></span>
+              <p data-i18n="about.h2">I enjoy the hardest parts of a product: payments (Stripe, Revolut Business, NMI), automation workflows, role-based access control and admin dashboards.</p>
+            </li>
+            <li>
+              <span class="hl-icon" aria-hidden="true"><svg class="icon"><use href="#i-game"/></svg></span>
+              <p data-i18n="about.h3">After hours I build games with three.js, Expo and Canvas, and automate their trailers with Remotion.</p>
+            </li>
+            <li>
+              <span class="hl-icon" aria-hidden="true"><svg class="icon"><use href="#i-spark"/></svg></span>
+              <p data-i18n="about.h4">I use AI-assisted workflows (Claude Code), backed by typed code, tests and pull-request review.</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="facts card reveal">
+          <h3 id="facts-title" class="visually-hidden" data-i18n="facts.title">Quick facts</h3>
+          <dl>
+            <div class="fact">
+              <dt><svg class="icon" aria-hidden="true"><use href="#i-cap"/></svg><span data-i18n="facts.edu">Education</span></dt>
+              <dd>
+                <strong data-i18n="facts.degree">B.Eng. in Computer Science</strong>
+                <span data-i18n="facts.school">Ingeniería en Ciencias Informáticas · UCI, Havana · 2019 – 2024</span>
+                <span class="badge" data-i18n="facts.gold">Gold Diploma · highest academic honors</span>
+              </dd>
+            </div>
+            <div class="fact">
+              <dt><svg class="icon" aria-hidden="true"><use href="#i-globe"/></svg><span data-i18n="facts.langs">Languages</span></dt>
+              <dd>
+                <span data-i18n="facts.es">Spanish — native</span>
+                <span data-i18n="facts.en">English — A2 (CEFR) · daily technical reading</span>
+              </dd>
+            </div>
+            <div class="fact">
+              <dt><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg><span data-i18n="facts.where">Location</span></dt>
+              <dd><span data-i18n="facts.location">Havana, Cuba · US Eastern Time (UTC−5/−4) · Remote</span></dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="section section-alt" id="experience" aria-labelledby="experience-title">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="kicker">02</p>
+        <h2 id="experience-title" data-i18n="exp.title">Experience</h2>
+      </header>
+
+      <ol class="timeline">
+        <li class="job reveal">
+          <div class="job-head">
+            <h3 class="job-title"><span data-i18n="exp.c.role">Full-Stack Developer</span> <span class="job-at">·</span> <span class="job-co" data-i18n="exp.c.co">Independent Contractor (B2B)</span></h3>
+            <p class="date" data-i18n="exp.c.date">11/2024 – Present</p>
+          </div>
+          <p class="job-meta" data-i18n="exp.c.meta">Remote · Full-time on Falcon Dispute (Dumbo Credit, US) since 09/2025, plus projects for clients in Spain via the Innet agency and a remote dev team.</p>
+
+          <div class="clients">
+            <article class="client">
+              <div class="client-head">
+                <h4>Falcon Dispute — Dumbo Credit <span class="client-kind"><span data-i18n="exp.falcon.kind">credit-repair SaaS</span> · <a href="https://falcondispute.com" target="_blank" rel="noopener">falcondispute.com</a></span></h4>
+                <p class="date" data-i18n="exp.falcon.date">09/2025 – Present</p>
+              </div>
+              <ul class="bullets" data-i18n="exp.falcon.list">
+                <li>Primary frontend developer (<strong>~75% of frontend commits; 1,500+ commits overall</strong>) on a multi-tenant CRM built with Laravel 10, Inertia.js, React and TypeScript.</li>
+                <li>Built the full UI of the core dispute workflow: credit-report review, round-based letter builder, PostGrid mail-out and results.</li>
+                <li>Built the billing frontend on <strong>Stripe and MagicPay</strong> (plans with limits, credits, invoices, subscriptions and a retention flow) and the <strong>AutoFalcon</strong> automation-builder UI.</li>
+                <li>Created the white-label <strong>client portal</strong> from scratch (Next.js 16, React 19, TanStack Query, Zustand): per-domain branding and ~30 feature flags, e-signatures, document uploads and tokenized NMI payments.</li>
+                <li>Hardened RBAC (Spatie permissions, role guards), removed PII from API payloads and localized the app (EN/ES).</li>
+              </ul>
+            </article>
+
+            <article class="client">
+              <div class="client-head">
+                <h4>Kruceros <span class="client-kind" data-i18n="exp.kruceros.kind">cruise-booking CRM/ERP (via Innet)</span></h4>
+                <p class="date" data-i18n="exp.kruceros.date">06/2026 – Present</p>
+              </div>
+              <ul class="bullets" data-i18n="exp.kruceros.list">
+                <li>Main developer since June 2026 on <strong>Laravel 10 + Filament 3</strong>: quarterly commission settlements, 45 migrations and scheduled jobs.</li>
+                <li>Automated payment collection via <strong>Revolut Business webhooks</strong> (HMAC signatures, OAuth with JWT, hourly reconciliation) and built the Shore2Shore (OAuth 2.0) and Awipik (SOAP) integrations.</li>
+              </ul>
+            </article>
+
+            <article class="client">
+              <div class="client-head">
+                <h4>VECTRA ALL FINANCE <span class="client-kind" data-i18n="exp.vectra.kind">real-estate and mortgage CRM</span></h4>
+                <p class="date">04/2026 – 06/2026</p>
+              </div>
+              <ul class="bullets" data-i18n="exp.vectra.list">
+                <li>Built a CRM almost single-handedly with <strong>Laravel 13 + Filament 5</strong>: sales pipeline (client, opportunity, mandate), calendar, document management and a dashboard with KPIs, conversion funnel and daily Euribor.</li>
+              </ul>
+            </article>
+
+            <article class="client">
+              <div class="client-head">
+                <h4>Grupo Estucalia <span class="client-kind" data-i18n="exp.estucalia.kind">trilingual corporate website and headless CMS</span></h4>
+                <p class="date">01/2026 – 06/2026</p>
+              </div>
+              <ul class="bullets" data-i18n="exp.estucalia.list">
+                <li>Built most of the CMS on <strong>Laravel 12 + Filament 3</strong> (14 models and 24 API controllers) and implemented the technical SEO in Next.js: SSR, ES/EN/FR hreflang, dynamic sitemap and editable metadata (<a href="https://www.grupoestucalia.com" target="_blank" rel="noopener">grupoestucalia.com</a>).</li>
+              </ul>
+            </article>
+
+            <article class="client">
+              <div class="client-head">
+                <h4>Tourney Padel <span class="client-kind" data-i18n="exp.padel.kind">padel tournament platform: API, admin panel and mobile app (via Innet)</span></h4>
+                <p class="date">06/2025 – 09/2025</p>
+              </div>
+              <ul class="bullets" data-i18n="exp.padel.list">
+                <li>Main full-stack developer (<strong>350 of 535 commits</strong>) of the Laravel 12 + Filament 3 API and the <strong>Expo/React Native</strong> app for iOS, Android and web, localized into 8 languages.</li>
+                <li>Built the competition engine (groups, knockout brackets and Americano format), Stripe payments (subscriptions with prorated plan changes) and OneSignal push notifications.</li>
+                <li>Added nearby-tournament search by geolocation (Haversine formula), map-based club sign-up (Leaflet + Nominatim) and scheduled email reminders.</li>
+              </ul>
+            </article>
+
+            <article class="client">
+              <div class="client-head">
+                <h4><span data-i18n="exp.capo.title">Dumbo Credit &amp; TaxFinder</span> <span class="client-kind" data-i18n="exp.capo.kind">US products (via the Capo Digital agency)</span></h4>
+                <p class="date">11/2024 – 05/2025</p>
+              </div>
+              <ul class="bullets" data-i18n="exp.capo.list">
+                <li><strong>Dumbo Credit</strong> (<a href="https://app.dumbocredit.com" target="_blank" rel="noopener">app.dumbocredit.com</a>): 3-bureau credit report, admin dashboard (revenue, churn, Stripe subscriptions, PDF/Excel reports) and affiliate portal, in Next.js 14 and TypeScript.</li>
+                <li><strong>TaxFinder</strong> (<a href="https://app.taxfinder.net" target="_blank" rel="noopener">app.taxfinder.net</a>): built the admin dashboard, in-chat payments (Stripe and payment links) and Firebase Cloud Messaging push notifications.</li>
+              </ul>
+            </article>
+          </div>
+        </li>
+
+        <li class="job reveal">
+          <div class="job-head">
+            <h3 class="job-title"><span data-i18n="exp.fortes.role">Frontend / Full-Stack Developer (part-time)</span> <span class="job-at">·</span> <span class="job-co">Centro FORTES — UCI</span></h3>
+            <p class="date" data-i18n="exp.fortes.date">2023 – Present</p>
+          </div>
+          <p class="job-meta" data-i18n="exp.fortes.meta">Havana · Part-time · SIGIES, Cuba's national university admissions system</p>
+          <ul class="bullets" data-i18n="exp.fortes.list">
+            <li>Built the responsive base layout of the new SIGIES and, in 2024, 24 master-data catalogs and the per-province seat plan in <strong>Angular and NG-ZORRO</strong>, with a generic table, filters and ApiService&lt;T&gt;.</li>
+            <li>In 2026, delivered an end-to-end module: <strong>NestJS + TypeORM</strong> API, permissions migration, 19 Jest tests and Angular 18 screens.</li>
+          </ul>
+        </li>
+
+        <li class="job reveal">
+          <div class="job-head">
+            <h3 class="job-title"><span>Frontend Developer</span> <span class="job-at">·</span> <span class="job-co" data-i18n="exp.htp.co">Havana Technology Park</span></h3>
+            <p class="date">01/2023 – 09/2023</p>
+          </div>
+          <p class="job-meta" data-i18n="exp.htp.meta">Havana · React and JavaScript frontend for the Fyself platform</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Featured client work -->
+  <section class="section" id="work" aria-labelledby="work-title">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="kicker">03</p>
+        <h2 id="work-title" data-i18n="work.title">Featured client work</h2>
+        <p class="section-sub" data-i18n="work.sub">Products I work or have worked on for companies in the US and Spain.</p>
+      </header>
+
+      <div class="work-grid">
+        <article class="card work-card work-feature reveal">
+          <div class="feature-main">
+            <p class="work-tag" data-i18n="work.falcon.tag">Credit-repair SaaS · US</p>
+            <h3>Falcon Dispute</h3>
+            <p class="work-role" data-i18n="work.falcon.role">Primary frontend developer · full-time since 09/2025</p>
+            <ul class="checks" data-i18n="work.falcon.list">
+              <li>Core dispute workflow UI and round-based letter builder</li>
+              <li>Billing on Stripe and MagicPay</li>
+              <li>AutoFalcon automation-builder UI</li>
+              <li>White-label client portal built from scratch (Next.js 16)</li>
+            </ul>
+            <a class="card-link" href="https://falcondispute.com" target="_blank" rel="noopener">falcondispute.com<svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </div>
+          <div class="feature-side">
+            <div class="mini-stat"><strong>~75%</strong><span data-i18n="work.falcon.s1">of frontend commits</span></div>
+            <div class="mini-stat"><strong>1,500+</strong><span data-i18n="work.falcon.s2">commits overall</span></div>
+            <ul class="chips" aria-label="Stack"><li>Laravel</li><li>Inertia.js</li><li>React</li><li>TypeScript</li><li>Next.js 16</li></ul>
+          </div>
+        </article>
+
+        <article class="card work-card reveal">
+          <p class="work-tag" data-i18n="work.kruceros.tag">Cruise-booking CRM/ERP · Spain</p>
+          <h3>Kruceros</h3>
+          <p data-i18n="work.kruceros.desc">Main developer since June 2026: Revolut Business webhooks with hourly reconciliation, quarterly commission settlements, OAuth 2.0 and SOAP integrations.</p>
+          <ul class="chips" aria-label="Stack"><li>Laravel</li><li>Filament</li><li>React</li></ul>
+        </article>
+
+        <article class="card work-card reveal">
+          <p class="work-tag" data-i18n="work.estucalia.tag">Trilingual website &amp; headless CMS · Spain</p>
+          <h3>Grupo Estucalia</h3>
+          <p data-i18n="work.estucalia.desc">Most of the CMS (Laravel 12 + Filament 3) and the technical SEO in Next.js: SSR, ES/EN/FR hreflang, dynamic sitemap and editable metadata.</p>
+          <ul class="chips" aria-label="Stack"><li>Laravel 12</li><li>Filament 3</li><li>Next.js</li></ul>
+          <a class="card-link" href="https://www.grupoestucalia.com" target="_blank" rel="noopener">grupoestucalia.com<svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        </article>
+
+        <article class="card work-card reveal">
+          <p class="work-tag" data-i18n="work.padel.tag">Padel tournament platform · Spain</p>
+          <h3>Tourney Padel</h3>
+          <p data-i18n="work.padel.desc">Main full-stack developer (350 of 535 commits): competition engine (groups, brackets, Americano format), Stripe subscriptions, push notifications, app localized into 8 languages.</p>
+          <ul class="chips" aria-label="Stack"><li>Laravel</li><li>Filament</li><li>Expo</li></ul>
+        </article>
+
+        <article class="card work-card reveal">
+          <p class="work-tag" data-i18n="work.taxfinder.tag">Tax-pro marketplace · US</p>
+          <h3>TaxFinder</h3>
+          <p data-i18n="work.taxfinder.desc">Admin dashboard, in-chat payments and web push notifications.</p>
+          <ul class="chips" aria-label="Stack"><li>Next.js 14</li><li>TypeScript</li><li>Firebase Cloud Messaging</li></ul>
+          <a class="card-link" href="https://app.taxfinder.net" target="_blank" rel="noopener">app.taxfinder.net<svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        </article>
+
+        <article class="card work-card reveal">
+          <p class="work-tag" data-i18n="work.dumbo.tag">Credit monitoring · US</p>
+          <h3>Dumbo Credit</h3>
+          <p data-i18n="work.dumbo.desc">3-bureau credit report, admin dashboard with revenue and churn KPIs, and an affiliate portal.</p>
+          <ul class="chips" aria-label="Stack"><li>Next.js 14</li><li>MUI</li><li>TypeScript</li></ul>
+          <a class="card-link" href="https://app.dumbocredit.com" target="_blank" rel="noopener">app.dumbocredit.com<svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        </article>
+
+        <article class="card work-card reveal">
+          <p class="work-tag" data-i18n="work.vectra.tag">Real-estate &amp; mortgage CRM · Spain</p>
+          <h3>VECTRA ALL FINANCE</h3>
+          <p data-i18n="work.vectra.desc">Built almost single-handedly: sales pipeline, calendar, document management and a dashboard with KPIs, conversion funnel and daily Euribor.</p>
+          <ul class="chips" aria-label="Stack"><li>Laravel 13</li><li>Filament 5</li></ul>
+        </article>
+      </div>
+
+      <p class="note reveal"><svg class="icon" aria-hidden="true"><use href="#i-lock"/></svg><span data-i18n="work.note">Client code is private. I'm happy to walk through the architecture and decisions in an interview.</span></p>
+    </div>
+  </section>
+
+  <!-- Side projects -->
+  <section class="section section-alt" id="projects" aria-labelledby="projects-title">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="kicker">04</p>
+        <h2 id="projects-title"><span data-i18n="proj.title">Side projects</span> <span class="ai-badge"><svg class="icon" aria-hidden="true"><use href="#i-spark"/></svg><span data-i18n="proj.ai">AI-assisted</span></span></h2>
+        <p class="section-sub" data-i18n="proj.sub">Games and apps I build after hours with AI-assisted workflows (Claude Code).</p>
+      </header>
+
+      <div class="project-grid">
+        <article class="card project project-feature reveal">
+          <a class="project-shot" href="https://alejandroespinoperez.github.io/Game-Aldea/" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+            <img src="assets/img/reino-del-alba-640.webp" srcset="assets/img/reino-del-alba-640.webp 640w, assets/img/reino-del-alba-1100.webp 1100w" sizes="(max-width: 640px) 100vw, (max-width: 960px) 50vw, 560px" width="640" height="400" loading="lazy" decoding="async" alt="">
+          </a>
+          <div class="project-body">
+            <p class="work-tag"><span data-i18n="proj.aldea.tag">Tower-defense kingdom builder in the browser</span></p>
+            <h3>Reino del Alba</h3>
+            <p data-i18n="proj.aldea.desc">Vanilla JS + Canvas: sprite cache with LRU eviction, 78 automated smoke tests (Puppeteer) and an Android build with Capacitor.</p>
+            <ul class="chips" aria-label="Stack"><li>JavaScript</li><li>Canvas 2D</li><li>Puppeteer</li><li>Capacitor</li></ul>
+            <a class="btn btn-small btn-primary" href="https://alejandroespinoperez.github.io/Game-Aldea/" target="_blank" rel="noopener"><svg class="icon icon-fill" aria-hidden="true"><use href="#i-play"/></svg><span data-i18n="proj.play">Play live demo</span></a>
+          </div>
+        </article>
+
+        <article class="card project project-feature reveal">
+          <a class="project-shot" href="https://alejandroespinoperez.github.io/Tierra-Viva-game/" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+            <img src="assets/img/tierra-viva-640.webp" srcset="assets/img/tierra-viva-640.webp 640w, assets/img/tierra-viva-1100.webp 1100w" sizes="(max-width: 640px) 100vw, (max-width: 960px) 50vw, 560px" width="640" height="400" loading="lazy" decoding="async" alt="">
+          </a>
+          <div class="project-body">
+            <p class="work-tag"><span data-i18n="proj.tierra.tag">Procedural world and civilization simulator</span></p>
+            <h3>Tierra Viva</h3>
+            <p data-i18n="proj.tierra.desc">Seeded biomes and rivers, A* pathfinding, eras from the Stone Age to the Space Age, and synthesized audio.</p>
+            <ul class="chips" aria-label="Stack"><li>JavaScript</li><li>Canvas 2D</li><li>Web Audio API</li></ul>
+            <a class="btn btn-small btn-primary" href="https://alejandroespinoperez.github.io/Tierra-Viva-game/" target="_blank" rel="noopener"><svg class="icon icon-fill" aria-hidden="true"><use href="#i-play"/></svg><span data-i18n="proj.play">Play live demo</span></a>
+          </div>
+        </article>
+
+        <article class="card project reveal">
+          <div class="project-body">
+            <p class="work-tag" data-i18n="proj.battle.tag">3D mobile auto-battler</p>
+            <h3>Battle Infinity</h3>
+            <p data-i18n="proj.battle.desc">Expo + three.js and TypeScript: LAN multiplayer with deterministic lockstep, replays, and a village with a day/night cycle.</p>
+            <ul class="chips" aria-label="Stack"><li>Expo</li><li>React Native</li><li>three.js</li><li>TypeScript</li></ul>
+            <p class="project-foot" data-i18n="proj.battle.demo">Demo on request</p>
+          </div>
+        </article>
+
+        <article class="card project reveal">
+          <div class="project-body">
+            <p class="work-tag" data-i18n="proj.vende.tag">Offline inventory and point of sale</p>
+            <h3>VendeFácil</h3>
+            <p data-i18n="proj.vende.desc">14-screen Android/iOS app: SQLite sales, analytics, PDF reports, backups and OTA updates.</p>
+            <ul class="chips" aria-label="Stack"><li>Expo SDK 58</li><li>React Native</li><li>SQLite</li><li>EAS</li></ul>
+          </div>
+        </article>
+
+        <article class="card project reveal">
+          <div class="project-body">
+            <p class="work-tag" data-i18n="proj.manos.tag">Computer vision in the browser</p>
+            <h3>Manos</h3>
+            <p data-i18n="proj.manos.desc">Hand and face tracking with 9 gesture-driven modes and a kNN pose classifier you can train live.</p>
+            <ul class="chips" aria-label="Stack"><li>MediaPipe</li><li>Canvas</li><li>Web Audio API</li></ul>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="section" id="skills" aria-labelledby="skills-title">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="kicker">05</p>
+        <h2 id="skills-title" data-i18n="skills.title">Skills</h2>
+      </header>
+      <div class="skills-grid">
+        <div class="card skill-group reveal">
+          <h3>Frontend</h3>
+          <ul class="chips"><li class="core">React</li><li class="core">Next.js (App Router, SSR)</li><li class="core">TypeScript</li><li>Inertia.js</li><li>Angular</li><li>Tailwind CSS</li><li>TanStack Query</li><li>Zustand</li></ul>
+        </div>
+        <div class="card skill-group reveal">
+          <h3>Backend</h3>
+          <ul class="chips" data-i18n="skills.backend"><li>PHP 8</li><li class="core">Laravel 9–13</li><li>Filament</li><li>Livewire</li><li>NestJS</li><li>Node.js</li><li>REST APIs</li><li>Sanctum/JWT</li><li>Queues</li><li>Webhooks</li></ul>
+        </div>
+        <div class="card skill-group reveal">
+          <h3 data-i18n="skills.mobileTitle">Mobile &amp; data</h3>
+          <ul class="chips"><li>React Native</li><li>Expo (Router, EAS)</li><li>MySQL/MariaDB</li><li>PostgreSQL</li><li>SQLite</li><li>Eloquent</li><li>TypeORM</li></ul>
+        </div>
+        <div class="card skill-group reveal">
+          <h3 data-i18n="skills.intTitle">Integrations</h3>
+          <ul class="chips"><li>Stripe</li><li>Revolut Business</li><li>NMI</li><li>PostGrid</li><li>Twilio</li><li>Telegram Bot API</li><li>Firebase (FCM)</li><li>OneSignal</li></ul>
+        </div>
+        <div class="card skill-group reveal">
+          <h3 data-i18n="skills.toolsTitle">Tooling</h3>
+          <ul class="chips" data-i18n="skills.tools"><li>Git (GitHub/GitLab)</li><li>Pull requests</li><li>GitHub Actions</li><li>PHPUnit</li><li>Jest</li><li>i18n</li><li>Technical SEO</li><li>RBAC (Spatie)</li></ul>
+        </div>
+        <div class="card skill-group reveal">
+          <h3 data-i18n="skills.otherTitle">Other</h3>
+          <ul class="chips" data-i18n="skills.other"><li>three.js</li><li>Remotion</li><li>MediaPipe</li><li>Unity (C#)</li><li>AI-assisted development (Claude Code)</li><li>Scrum</li></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section contact" id="contact" aria-labelledby="contact-title">
+    <div class="container">
+      <div class="contact-card reveal">
+        <div class="contact-copy">
+          <p class="kicker">06</p>
+          <h2 id="contact-title" data-i18n="contact.title">Let's talk</h2>
+          <p class="lead" data-i18n="contact.text">I'm open to <strong>remote full-stack roles</strong> (Laravel · React/Next.js · TypeScript) with teams in Europe and the Americas.</p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="mailto:espinoperezalejandro50@gmail.com"><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg><span data-i18n="cta.email">Email me</span></a>
+            <a class="btn btn-secondary" href="https://github.com/AlejandroEspinoPerez" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-github"/></svg><span>GitHub</span></a>
+          </div>
+        </div>
+        <ul class="contact-list">
+          <li><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg><a href="mailto:espinoperezalejandro50@gmail.com">espinoperezalejandro50<wbr>@gmail.com</a></li>
+          <li><svg class="icon" aria-hidden="true"><use href="#i-github"/></svg><a href="https://github.com/AlejandroEspinoPerez" target="_blank" rel="noopener">github.com/<wbr>AlejandroEspinoPerez</a></li>
+          <li><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg><span data-i18n="contact.location">Havana, Cuba · US Eastern Time (UTC−5/−4)</span></li>
+          <li><svg class="icon" aria-hidden="true"><use href="#i-file"/></svg><span><a href="cv/Alejandro-Espino-Perez-Resume-FullStack-EN.pdf" type="application/pdf" target="_blank" rel="noopener" data-i18n="contact.resumeEn">Resume in English (PDF)</a> · <a href="cv/Alejandro-Espino-Perez-CV-FullStack-ES.pdf" type="application/pdf" target="_blank" rel="noopener" lang="es" data-i18n="contact.resumeEs">CV en español (PDF)</a></span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© 2026 Alejandro Espino Pérez · <span data-i18n="footer.built">Built with HTML, CSS and vanilla JavaScript.</span></p>
+    <a class="to-top" href="#top"><svg class="icon" aria-hidden="true"><use href="#i-up"/></svg><span data-i18n="footer.top">Back to top</span></a>
+  </div>
+</footer>
+</body>
+</html>
